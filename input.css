@@ -2,12 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-image: url("../images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 106% -22%;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: 630px;
+    background-position: 196% -7%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background-size: 400px;
+    background-position: 660% -2%;
+  }
+}
+
+#cta {
+  background-image: url("../images/bg-simplify-section-desktop.svg");
+  background-repeat: no-repeat;
+  background-position-y: 30%;
+}
+
+@media (max-width: 480px) {
+  #cta {
+    background-image: url("../images/bg-simplify-section-mobile.svg");
+  }
+}
+
 @media (min-width: 1440px) {
-    .container {
-        max-width: 1200px;
-    }
+  .container {
+    max-width: 1200px;
+  }
 }
 
 .swiper {
-    max-width: 100%;
+  max-width: 100%;
 }

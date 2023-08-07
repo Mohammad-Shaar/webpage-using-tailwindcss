@@ -39,12 +39,32 @@
         <div class="pt-2">
           <img src="images/logo.svg" alt="" />
         </div>
-        <ul class="hidden md:flex space-x-6">
-          <li><a href="#" class="hover:text-darkGrayishBlue">pricing</a></li>
-          <li><a href="#" class="hover:text-darkGrayishBlue">product</a></li>
-          <li><a href="#" class="hover:text-darkGrayishBlue">about us</a></li>
-          <li><a href="#" class="hover:text-darkGrayishBlue">careers</a></li>
-          <li><a href="#" class="hover:text-darkGrayishBlue">community</a></li>
+        <ul class="hidden md:flex space-x-6 font-bold">
+          <li>
+            <a href="#" class="text-darkBlue hover:text-darkGrayishBlue"
+              >pricing</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-darkBlue hover:text-darkGrayishBlue"
+              >product</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-darkBlue hover:text-darkGrayishBlue"
+              >about us</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-darkBlue hover:text-darkGrayishBlue"
+              >careers</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-darkBlue hover:text-darkGrayishBlue"
+              >community</a
+            >
+          </li>
         </ul>
         <div class="hidden md:flex justify-center md:justify-start">
           <a
@@ -53,7 +73,35 @@
             >get started</a
           >
         </div>
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block relative hamburger md:hidden focus:outline-none cursor-pointer w-6 h-6 transition-all duration-0"
+        >
+          <span
+            class="hamburger-top absolute top-0 left-0 w-6 h-1 rotate-0 transition-all duration-500 bg-darkBlue"
+          ></span>
+          <span
+            class="hamburger-middle absolute top-0 left-0 w-6 h-1 rotate-0 transition-all duration-500 translate-y-2 bg-darkBlue"
+          ></span>
+          <span
+            class="hamburger-bottom absolute top-0 left-0 w-6 h-1 rotate-0 transition-all duration-500 translate-y-4 bg-darkBlue"
+          ></span>
+        </button>
       </nav>
+      <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#" class="text-darkBlue">Pricing</a>
+          <a href="#" class="text-darkBlue">Product</a>
+          <a href="#" class="text-darkBlue">About Us</a>
+          <a href="#" class="text-darkBlue">Careers</a>
+          <a href="#" class="text-darkBlue">Community</a>
+        </div>
+      </div>
       <!-- ========== Hero Section ========== -->
       <section id="hero">
         <div

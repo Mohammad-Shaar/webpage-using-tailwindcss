@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+.swiper {
+    max-width: 100%;
+}

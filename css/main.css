@@ -694,6 +694,10 @@ video {
   width: 2rem;
 }
 
+.w-5 {
+  width: 1.25rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -852,6 +856,14 @@ video {
   fill: #fff;
 }
 
+.fill-brightRedLight {
+  fill: hsl(12, 88%, 69%);
+}
+
+.fill-brightRed {
+  fill: hsl(12, 88%, 59%);
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -957,6 +969,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-brightRedLight {
+  --tw-text-opacity: 1;
+  color: hsl(12 88% 69% / var(--tw-text-opacity));
 }
 
 .outline-none {
